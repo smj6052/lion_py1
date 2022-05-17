@@ -1,12 +1,12 @@
 name=input()
 num=int(input())
-if(num>=90):
+if(num in range(90,101)):
     grade='A'
-elif(num>=80):
+elif(num in range(80,90)):
     grade='B'
-elif(num>=70):
+elif(num in range(70,80)):
     grade='C'
-elif(num>=60):
+elif(num in range(60,70)):
     grade='D'
 else:
     grade='F'
